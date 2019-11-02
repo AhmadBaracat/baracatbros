@@ -91,12 +91,19 @@ header {
 	margin-right: 30px;
 }
 
-.logo > p {
+.appNamePriceContainer > p {
 	color: $header-title-color;
 	white-space: nowrap;
 	display: flex;
-	font-weight: bold;
-	margin-left: 15px;
+}
+
+.appName {
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.appPrice {
+    font-weight: lighter;
 }
 
 @media only screen and (max-width: 768px) {
