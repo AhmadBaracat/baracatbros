@@ -48,8 +48,8 @@ testimonials                                  :
 
 
 # Theme Settings
-topbar_color                              : "#FAFAFA"
-topbar_transparency                       : 0.5
+topbar_color                              : "#EAF2F5"
+topbar_transparency                       : 1.0
 topbar_title_color                        : "#30373A"
 
 cover_image                               :                     # Replace with alternative image path or image URL.
