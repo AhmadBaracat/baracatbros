@@ -1,15 +1,15 @@
 <div class="testimonials">
     {% for testimonial in site.testimonials %}
 
-    {% if testimonial.title %}
+    {% if testimonial.name %}
     <div class="feature">
         <div class="featureText">
-            <h3>
-                {{ testimonial.title }}
-            </h3>
             <p>
                 {{ testimonial.description }}
             </p>
+            <h3>
+                {{ testimonial.name }}
+            </h3>
         </div>
     </div>
     {% endif %}
