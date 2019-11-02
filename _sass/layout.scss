@@ -471,7 +471,7 @@ nav > ul li a:active {
 
 // Feature List
 
-.features {
+.testimonials {
 	grid-area: c;
 	display: flex;
 	flex: 0 1 auto;
@@ -534,7 +534,7 @@ nav > ul li a:active {
 
 @media only screen and (max-width: 992px) {
 
-	.features {
+	.testimonials {
 		flex-grow: 1;
 		flex-direction: row;
 		flex-wrap: wrap;
@@ -569,7 +569,7 @@ nav > ul li a:active {
 
 @media only screen and (max-width: 375px) {
 
-	.features {
+	.testimonials {
 		flex-grow: 1;
 		flex-direction: row;
 		flex-wrap: wrap;
@@ -602,6 +602,12 @@ nav > ul li a:active {
 	
 } 
 
+.aboutus {
+    grid-area: c;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
 
 // Footer
