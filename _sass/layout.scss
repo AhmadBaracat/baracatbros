@@ -388,8 +388,10 @@ $base-background-size:  260px auto;
 	background-repeat: no-repeat;
 	margin-top: 0px;
 	justify-content: center;
-	margin-left: auto;
-    margin-right: auto;
+    background-image: url($device-color);
+    background-size: 230px auto;
+    background-position: center 0;
+    display: flex;
 }
 
 .iphoneScreen {
@@ -405,8 +407,8 @@ $base-background-size:  260px auto;
 	height: $base-height;
 	-webkit-clip-path: url(#screenMask);
 	clip-path: url(#screenMask);
-	margin-left: $base-margin-left;
-	margin-top: 17px;
+	margin-top: 15px;
+	margin-left: 2px;
 }
 
 .videoContainer > video {
