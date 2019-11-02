@@ -434,6 +434,11 @@ $base-background-size:  260px auto;
 	flex-grow: 1;
 	flex-wrap: wrap;
 	margin-top: 93px;
+
+    margin-top: 0;
+    background-color: #ffffff;
+    border-radius: 40px;
+    padding: 30px;
 }
 
 .feature {
