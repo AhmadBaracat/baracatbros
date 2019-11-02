@@ -222,7 +222,7 @@ nav > ul li a:active {
 	grid-area: i;
 	display: flex;
 	flex-wrap: wrap;
-	padding-top: 140px;
+	padding-top: 80px;
 	align-content: flex-start;
 }
 
@@ -369,7 +369,7 @@ $base-background-size:  260px auto;
 .iphonePreview {
 	grid-area: p;
 	background-repeat: no-repeat;
-	margin-top: 47px;
+	margin-top: 0px;
 	justify-content: center;
 	margin-left: auto;
     margin-right: auto;
@@ -407,9 +407,8 @@ $base-background-size:  260px auto;
 	justify-content: flex-start;
 	flex-grow: 1;
 	flex-wrap: wrap;
-	margin-top: 93px;
 
-    margin-top: 0;
+    margin-top: 50px;
     background-color: #ffffff;
     border-radius: 40px;
     padding: 30px;
