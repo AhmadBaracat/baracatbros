@@ -1,7 +1,7 @@
 #Brand Info
 brand_name                                : Baracat Bros
 brand_icon                                : assets/BaracatBrosLogo.png
-brand_description                         : We design games for young parents to spend quality time with their 2-5 yrs old kids teaching them problem solving skills. Available on iOS & Android.
+brand_description                         : We design games for young parents to spend quality time with their 2-5 yrs old kids teaching them problem solving skills. Our games are available on iOS & Android.
 
 #page title
 page_title                                :                                           # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
