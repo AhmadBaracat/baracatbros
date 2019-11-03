@@ -8,11 +8,12 @@
 					</clipPath>
 				</defs>
 			</svg>
-			{% if page.url != '/' %}
-				<a href="../" target="_self"><img class="headerIcon" src="{{ site.brand_icon }}"></a>
-			{% else %}
-				<img class="headerIcon" src="{{ site.brand_icon }}">
-			{% endif %}
+<!--			{% if page.url != '/' %}-->
+<!--				<a href="../" target="_self"><img class="headerIcon" src="{{ site.brand_icon }}"></a>-->
+<!--			{% else %}-->
+<!--				<img class="headerIcon" src="{{ site.brand_icon }}">-->
+<!--			{% endif %}-->
+			<img class="headerIcon" src="{{ site.brand_icon }}">
 			<div class="divider"></div>
 		</div>
 		<h1 class="headerName">{{ site.brand_name }}</h1>
@@ -20,7 +21,7 @@
 	<nav class="scroll">
 		<ul>
 			<li><a target="_self" href="#about-us">About Us</a></li>
-            <li><a target="_self" href="products/bubbloWorldPreschool.html">Products</a></li>
+            <li><a target="_self" href="/products/bubbloWorldPreschool.html">Products</a></li>
 <!--			{% for page in site.pages %}-->
 <!--				{% if page.include_in_header == true %}-->
 <!--				<li><a href="{{ page.url | relative_url }}" target="_self">{{ page.title }}</a></li>-->
