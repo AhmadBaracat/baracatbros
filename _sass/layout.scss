@@ -63,12 +63,14 @@ body {
 
 .main-container {
     @extend .container;
+    grid-template-columns: auto;
     grid-template-rows: auto;
     grid-template-areas:
-            "h h h h h h h h h h h h"
-            "m m m m m m m m m m m m"
-            "a a a a a a a a a a a a"
-            "f f f f f f f f f f f f";
+            "h h"
+            "i s"
+            "m m"
+            "a a"
+            "f f";
 
 }
 
@@ -568,22 +570,33 @@ $base-background-size:  260px auto;
 		padding-left: 0px;
 	}
 	
-} 
+}
 
-.mission {
-    grid-area: m;
+.home-page-base-layout {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
 }
 
+.main-image {
+    @extend .home-page-base-layout;
+    grid-area: i;
+}
+
+.slogan {
+    @extend .home-page-base-layout;
+    grid-area: s;
+}
+
+.mission {
+    @extend .home-page-base-layout;
+    grid-area: m;
+}
+
 .aboutus {
+    @extend .home-page-base-layout;
     grid-area: a;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    text-align: center;
 }
 
 
