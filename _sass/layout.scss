@@ -63,14 +63,14 @@ body {
 
 .main-container {
     @extend .container;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: auto;
     grid-template-rows: auto;
     grid-template-areas:
-            "h h"
-            "i s"
-            "m m"
-            "a a"
-            "f f";
+            "h"
+            "s"
+            "m"
+            "a"
+            "f";
 
 }
 
@@ -588,7 +588,8 @@ $base-background-size:  260px auto;
 .slogan {
     @extend .home-page-base-layout;
     grid-area: s;
-    width: 60%;
+    width: 40%;
+    margin: auto;
 }
 
 .mission {
