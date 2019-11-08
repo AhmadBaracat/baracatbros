@@ -160,9 +160,6 @@ header {
 	align-items: center;
 	justify-content: flex-end;
 
-	height: 115px;
-	//margin-left: 15px;
-
 	white-space: nowrap;
 	overflow-x: auto;
 	overflow-y: hidden;
@@ -173,10 +170,6 @@ header {
 @media only screen and (max-width: 768px) {
 
 	.scroll {
-		height: 80px;
-		padding-top: 100px;
-		padding-bottom: 100px;
-		margin-top: -60px;
 		justify-content: flex-start;
 	}	
 	
