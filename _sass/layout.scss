@@ -23,7 +23,6 @@ body {
 	padding-right: 15px;
 	padding-bottom: 15px;
 	grid-template-columns: repeat(12, 1fr);
-	grid-template-rows: 115px 500px auto auto;
 	grid-column-gap: 30px;
 	grid-row-gap: 30px;
 	grid-template-areas: 
@@ -39,20 +38,12 @@ body {
 	background-color: #fff;
 }
 
-@media only screen and (max-width: 768px) {
-
-	.container {					// Set up the container for the site content
-		grid-template-rows: 80px 811px auto auto;
-	}
-}
-
 @media only screen and (max-width: 992px) {
 
 	.container {
 		grid-column-gap: 0px;
 		grid-template-columns: 1;
-		grid-template-rows: 115px auto auto auto auto;
-		grid-template-areas: 
+		grid-template-areas:
 			"h h h h h h h h h h h h"
 			"i i i i i i i i i i i i"
 			"p p p p p p p p p p p p"
