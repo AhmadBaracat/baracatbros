@@ -21,6 +21,18 @@ app_description                           : Spend quality time with your kids te
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
+page:
+  main:
+    name: Baracat Bros
+    icon: /assets/BaracatBrosLogo.png
+    description: BB
+    enable_smart_app_banner: false
+  bubblo_world_preschool:
+    name: Bubblo World Preschool
+    icon: /assets/lol.png
+    description: BWP
+    enable_smart_app_banner: true
+    ios_app_id: 1483549460
 
 
 # Information About Yourself
