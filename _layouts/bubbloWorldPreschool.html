@@ -2,6 +2,7 @@
 <html lang="en-us">
 
 {% include head.html page=site.page.bubblo_world_preschool%}
+{% assign page = site.page.bubblo_world_preschool %}
 
 <body>
 <div class="imageWrapper">
@@ -33,31 +34,27 @@
                             </clipPath>
                         </defs>
                     </svg>
-                    <img class="appIconLarge" src="{{ site.app_icon }}">
+                    <img class="appIconLarge" src="{{ page.app_icon }}">
                 </div>
                 <div class="appNamePriceContainer">
                     <p class="appName">
-                        {{ site.app_name }}
+                        {{ page.app_name }}
                     </p>
                     <p class="appPrice">
-                        {{ site.app_price }}
+                        {{ page.app_price }}
                     </p>
                 </div>
                 <div class="appDescriptionContainer">
                     <p class ="appDescription">
-                        {{ site.app_description }}
+                        {{ page.app_description }}
                     </p>
                 </div>
                 <div class="downloadButtonsContainer">
-                    <a class="appStoreLink" href="{{site.appstore_link}}"><img class="appStore" src="/assets/appstore.png"></a>
-                    {% if site.playstore_link %}
-                    <a class="playStoreLink" href="{{site.playstore_link}}"><img class="playStore" src="/assets/playstore.png"></a>
-                    {% endif %}
+                    <a class="appStoreLink" href="{{page.appstore_link}}"><img class="appStore" src="/assets/appstore.png"></a>
+                    <a class="playStoreLink" href="{{page.playstore_link}}"><img class="playStore" src="/assets/playstore.png"></a>
                 </div>
             </div>
             {% include testimonials.html %}
-<!--            {% include aboutus.html %}-->
-            {% include appstoreimages.html %}
             {% include footer.html %}
         </div>
     </div>

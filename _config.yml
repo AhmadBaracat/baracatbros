@@ -29,10 +29,18 @@ page:
     enable_smart_app_banner: false
   bubblo_world_preschool:
     name: Bubblo World Preschool
-    icon: /assets/lol.png
+    icon: /assets/bubbloworld_logo_icon@512.png
     description: BWP
+
     enable_smart_app_banner: true
     ios_app_id: 1483549460
+    appstore_link: https://apps.apple.com/us/app/bubblo-world-preschool/id1483549460
+    playstore_link: https://play.google.com/store/apps/details?id=com.baracatbros.bubbloworldpreschool
+
+    app_icon: /assets/bubbloworld_logo_icon@512.png
+    app_name: Bubblo World Preschool
+    app_price: Free
+    app_description: Spend quality time with your kids teaching them problem solving.
 
 
 # Information About Yourself
