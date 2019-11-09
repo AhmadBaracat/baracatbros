@@ -165,14 +165,6 @@ header {
 	-ms-overflow-style: -ms-autohiding-scrollbar;
 }
 
-@media only screen and (max-width: 768px) {
-
-	.scroll {
-		justify-content: flex-start;
-	}	
-	
-} 
-
 .scroll::-webkit-scrollbar {
 	display: none;
 }
