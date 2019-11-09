@@ -33,7 +33,7 @@ page:
     name: Bubblo World Preschool
     icon: /assets/bubbloworld_logo_icon@512.png
     description: Spend quality time with your preschool kids teaching them problem solving skills.
-    url: https://www.baracatbros.com/Games/BubbloWorldPreschool
+    url: https://www.baracatbros.com/games/bubblo-world-preschool
 
     enable_smart_app_banner: true
     ios_app_id: 1483549460
