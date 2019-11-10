@@ -603,7 +603,7 @@ $base-background-size:  260px auto;
     @extend .home-page-base-layout;
     grid-area: p;
     width: 30%;
-    height: auto;
+    object-fit: cover;
     margin-left: auto;
     margin-right: auto;
 }
