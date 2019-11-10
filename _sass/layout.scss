@@ -600,10 +600,10 @@ $base-background-size:  260px auto;
 }
 
 a.play-button {
-    text-decoration: none;
-    &:hover {
-        border-bottom: 0px solid;
-    }
+    -moz-transition: none;
+    -webkit-transition: none;
+    -o-transition: color 0 ease-in;
+    transition: none;
 }
 
 .play-button img{
