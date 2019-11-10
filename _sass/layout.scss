@@ -11,6 +11,20 @@ h1 {
     margin-left: 15px;
 }
 
+a {
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    &:hover {
+        -webkit-transition-property: border;
+        -moz-transition-property: border;
+        transition-property: border;
+        -webkit-transition-duration: 0.2s;
+        -moz-transition-duration: 0.2s;
+        transition-duration: 0.2s;
+        border-bottom: 1px solid;
+    }
+}
+
 body {
     background-color: #EAF2F5;
     min-height: 100%;
