@@ -609,7 +609,6 @@ footer p {
 }
 
 .footerText {
-	color: $footer-text-color;
 	display: block;
 	line-height: 1.5;
 	width: 100%;
@@ -661,7 +660,6 @@ footer p {
 @media only screen and (max-width: 992px) {
 	
 	.footerText {
-		color: $footer-text-color;
 		display: block;
 		line-height: 1.5;
 		width: 100%;
