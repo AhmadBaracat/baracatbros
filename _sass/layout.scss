@@ -598,6 +598,17 @@ $base-background-size:  260px auto;
     margin: auto;
 }
 
+a.play-button {
+    text-decoration: none;
+    &:hover {
+        border-bottom: 0px solid;
+    }
+}
+
+.play-button img{
+    width: 100%;
+}
+
 .mission {
     @extend .home-page-base-layout;
     grid-area: m;
