@@ -66,6 +66,7 @@ body {
     grid-template-areas:
             "h"
             "s"
+            "p"
             "m"
             "a"
             "f";
@@ -573,6 +574,13 @@ $base-background-size:  260px auto;
     @extend .home-page-base-layout;
     grid-area: s;
     width: 60%;
+    margin: auto;
+}
+
+.play-button {
+    @extend .home-page-base-layout;
+    grid-area: p;
+    width: 30%;
     margin: auto;
 }
 
