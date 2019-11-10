@@ -117,6 +117,14 @@ header {
 	margin-right: 30px;
 }
 
+.logo a {
+    -moz-transition: none;
+    -webkit-transition: none;
+    -o-transition: color 0 ease-in;
+    transition: none;
+    border-bottom: 1px solid transparent;
+}
+
 .appNamePriceContainer > p {
 	color: $header-title-color;
 	white-space: nowrap;
@@ -605,6 +613,7 @@ a.play-button {
     -webkit-transition: none;
     -o-transition: color 0 ease-in;
     transition: none;
+    border-bottom: 1px solid transparent;
 }
 
 .play-button img{
