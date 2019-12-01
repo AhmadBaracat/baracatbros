@@ -60,7 +60,6 @@ body {
 @media only screen and (max-width: 992px) {
 
 	.container {
-	    font-size: 1.8rem;
 		grid-column-gap: 0px;
 		grid-template-columns: 1;
 		grid-template-areas:
@@ -631,10 +630,6 @@ footer {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-}
-
-footer p {
-    font-size: 1.5rem;
 }
 
 .footerText {
