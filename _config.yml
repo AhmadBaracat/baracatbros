@@ -133,3 +133,6 @@ collections:
 
 # Markdown rendering
 markdown: kramdown
+
+plugins:
+  - jekyll-sitemap
