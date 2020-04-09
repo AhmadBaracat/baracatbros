@@ -34,6 +34,7 @@ page:
     icon: /assets/bubbloworld_logo_icon@512.png
     description: Spend quality time with your preschool kids teaching them problem solving skills.
     url: https://www.baracatbros.com/games/bubblo-world-preschool
+    assets_dir_name: bubblo_world_preschool
 
     enable_smart_app_banner: true
     ios_app_id: 1483549460
@@ -50,6 +51,7 @@ page:
     icon: /assets/Foodology_Logo@512.png
     description: Understand what you eat 🍏 🍩 🍣 🌰 🧀
     url: https://www.baracatbros.com/games/foodology
+    assets_dir_name: foodology
 
     enable_smart_app_banner: true
     ios_app_id:
