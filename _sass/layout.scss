@@ -627,7 +627,7 @@ a.play-button {
 
 footer {
 	grid-area: f;
-	display: flex;
+	display: grid;
 	flex-wrap: wrap;
 	justify-content: center;
 }
@@ -642,10 +642,11 @@ footer {
 }
 
 .footerIcons {
-	padding-bottom: 70px;
+	padding-bottom: 20px;
 	display: flex;
 	flex: 0 0 100%;
 	justify-content: center;
+	font-size: 2em;
 }
 
 .footerLinks {
@@ -693,7 +694,7 @@ footer {
 	}
 	
 	.footerIcons {
-		padding-bottom: 70px;
+// 		padding-bottom: 70px;
 		display: flex;
 	}
 	
