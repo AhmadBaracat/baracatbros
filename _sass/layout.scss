@@ -363,7 +363,10 @@ nav > ul li a:active {
 
 .appStore {
 	height: 50px;
-	margin-right: 24px;
+}
+
+.appStoreLink {
+    margin-right: 24px;
 }
 
 @media only screen {
@@ -376,7 +379,7 @@ nav > ul li a:active {
 
 @media only screen and (max-width: 528px) {
 
-	.appStore {
+	.appStoreLink {
 		margin-right: 0px;
 	}
 	
