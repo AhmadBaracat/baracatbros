@@ -24,6 +24,10 @@
                 $(function() {
                     $(".videoContainer").removeClass("hidden");
                     $(".screenvideo").append('<source src="{{ site.github.baseurl }}{{ file.path }}" type="video/mp4">');
+
+                    $(".videoContainerLandscape").removeClass("hidden");
+                    $(".screenvideoLandscape").append('<source src="{{ site.github.baseurl }}{{ file.path }}" type="video/mp4">');
+
                     console.log("{{ file.path }}");
                 });
             </script>
@@ -32,6 +36,10 @@
                 $(function() {
                     $(".videoContainer").removeClass("hidden");
                     $(".screenvideo").append('<source src="{{ site.github.baseurl }}{{ file.path }}" type="video/ogg">');
+
+                    $(".videoContainerLandscape").removeClass("hidden");
+                    $(".screenvideoLandscape").append('<source src="{{ site.github.baseurl }}{{ file.path }}" type="video/ogg">');
+
                     console.log("{{ file.path }}");
                 });
             </script>
@@ -40,6 +48,10 @@
             $(function() {
                 $(".videoContainer").removeClass("hidden");
                 $(".screenvideo").append('<source src="{{ site.github.baseurl }}{{ file.path }}" type="video/webm">');
+
+                $(".videoContainerLandscape").removeClass("hidden");
+                $(".screenvideoLandscape").append('<source src="{{ site.github.baseurl }}{{ file.path }}" type="video/webm">');
+
                 console.log("{{ file.path }}");
             });
         </script>
