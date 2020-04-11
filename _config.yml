@@ -54,9 +54,9 @@ page:
     assets_dir_name: foodology
 
     enable_smart_app_banner: true
-    ios_app_id:
-    appstore_link:
-    playstore_link:
+    ios_app_id: 1506837160
+    appstore_link: https://apps.apple.com/us/app/foodology/id1506837160
+    playstore_link: https://play.google.com/store/apps/details?id=com.BaracatBros.Foodology
 
     app_icon: /assets/Foodology_Logo@512.png
     app_name: Foodology
