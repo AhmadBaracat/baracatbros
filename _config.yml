@@ -29,6 +29,13 @@ page:
     url: https://www.baracatbros.com
 
     enable_smart_app_banner: false
+  games:
+    name: Baracat Bros Games
+    icon: /assets/BaracatBrosLogo.png
+    description: We use games as a medium for education.
+    url: https://www.baracatbros.com/games
+
+    enable_smart_app_banner: false
   bubblo_world_preschool:
     name: Bubblo World Preschool
     icon: /assets/bubbloworld_logo_icon@512.png
