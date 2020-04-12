@@ -258,7 +258,6 @@ nav > ul li a:active {
 	grid-area: i;
 	display: flex;
 	flex-wrap: wrap;
-	padding-top: 80px;
 	align-content: flex-start;
 }
 
@@ -430,7 +429,7 @@ $base-height-landscape: 180px;
 .iphonePreviewLandscape {
 	grid-area: p;
 	background-repeat: no-repeat;
-	margin-top: 100px;
+	margin-top: 40px;
 	justify-content: center;
     background-image: url($device-color-landscape);
     background-size: 430px auto;
