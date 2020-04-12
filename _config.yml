@@ -44,7 +44,7 @@ page:
     app_icon: /assets/bubbloworld_logo_icon@512.png
     app_name: Bubblo World Preschool
     app_price: Free
-    app_description: Spend quality time with your kids teaching them problem solving.
+    app_headline: Spend quality time with your kids teaching them problem solving.
 
   foodology:
     name: Foodology
@@ -61,7 +61,7 @@ page:
     app_icon: /assets/Foodology_Logo@512.png
     app_name: Foodology
     app_price: Free
-    app_description: Understand what you eat 🍏 🍩 🍣 🌰 🧀
+    app_headline: Understand what you eat 🍏 🍩 🍣 🌰 🧀
 
 
 # Information About Yourself

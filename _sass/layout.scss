@@ -330,7 +330,7 @@ nav > ul li a:active {
 	
 } 
 
-.appDescriptionContainer {
+.appHeadlineContainer {
 	font-size: 2.5rem;
 	font-weight: normal;
 	width: 100%;
@@ -340,13 +340,13 @@ nav > ul li a:active {
 	line-height: 1.5;
 }
 
-.appDescription {
+.appHeadline {
 	color: $app-description-color;
 }
 
 @media only screen and (max-width: 992px) {
 
-	.appDescription {
+	.appHeadline {
 		text-align: center;
 	}
 	
