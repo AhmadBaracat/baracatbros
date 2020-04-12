@@ -36,24 +36,8 @@ page:
     url: https://www.baracatbros.com/games
 
     enable_smart_app_banner: false
-  bubblo_world_preschool:
-    name: Bubblo World Preschool
-    icon: /assets/bubbloworld_logo_icon@512.png
-    description: Spend quality time with your preschool kids teaching them problem solving skills.
-    url: https://www.baracatbros.com/games/bubblo-world-preschool
-    assets_dir_name: bubblo_world_preschool
-
-    enable_smart_app_banner: true
-    ios_app_id: 1483549460
-    appstore_link: https://apps.apple.com/us/app/bubblo-world-preschool/id1483549460
-    playstore_link: https://play.google.com/store/apps/details?id=com.baracatbros.bubbloworldpreschool
-
-    app_icon: /assets/bubbloworld_logo_icon@512.png
-    app_name: Bubblo World Preschool
-    app_price: Free
-    app_headline: Spend quality time with your kids teaching them problem solving.
-
   foodology:
+    is_game: true
     name: Foodology
     icon: /assets/Foodology_Logo@512.png
     description: Understand what you eat 🍏 🍩 🍣 🌰 🧀
@@ -69,6 +53,23 @@ page:
     app_name: Foodology
     app_price: Free
     app_headline: Understand what you eat 🍏 🍩 🍣 🌰 🧀
+  bubblo_world_preschool:
+    is_game: true
+    name: Bubblo World Preschool
+    icon: /assets/bubbloworld_logo_icon@512.png
+    description: Spend quality time with your preschool kids teaching them problem solving skills.
+    url: https://www.baracatbros.com/games/bubblo-world-preschool
+    assets_dir_name: bubblo_world_preschool
+
+    enable_smart_app_banner: true
+    ios_app_id: 1483549460
+    appstore_link: https://apps.apple.com/us/app/bubblo-world-preschool/id1483549460
+    playstore_link: https://play.google.com/store/apps/details?id=com.baracatbros.bubbloworldpreschool
+
+    app_icon: /assets/bubbloworld_logo_icon@512.png
+    app_name: Bubblo World Preschool
+    app_price: Free
+    app_headline: Spend quality time with your kids teaching them problem solving.
 
 
 # Information About Yourself
