@@ -40,7 +40,7 @@ page:
     is_game: true
     name: Foodology
     icon: /assets/Foodology_Logo_WithShadows@561.png
-    description: Do you know enough about the food you eat? 🍏 🍋 🍉 🥐 🍟 🌽 🍩 🍆. Test your knowledge by sorting food by fat, protein, energy and more. No Ads! No High scores! Only food and a relaxing music...
+    description: Do you know enough about the food you eat? 🍏 🍩 🍣 🌰 🧀. Test your knowledge by sorting food by fat, protein, energy and more. No Ads! No High scores! Only food and a relaxing music...
     url: https://www.baracatbros.com/games/foodology
     assets_dir_name: foodology
 
@@ -69,7 +69,7 @@ page:
     app_icon: /assets/bubbloworld_logo_icon@512.png
     app_name: Bubblo World Preschool
     app_price: Free
-    app_headline: Spend quality time with your kids teaching them problem solving.
+    app_headline: Spend quality time with your toddler teaching them about the basic physics of chain reactions
 
 
 # Information About Yourself
