@@ -12,13 +12,13 @@
             {% assign page_content = page_dict[1] %}
             {% if page_content.is_game %}
                 <div class="game">
-                    <a href="{{page_content.url}}">
+                    <a href="{{page_content.url}}" target="_self" >
                         <div class="appIcon">
                             <img class="appIconLarge" src="{{ page_content.app_icon }}" alt="{{ page_content.name }} logo">
                         </div>
                     </a>
                     <div class="appName">
-                        <a href="{{page_content.url}}">
+                        <a href="{{page_content.url}}" target="_self" >
                             <p>
                                 {{ page_content.app_name }}
                             </p>
