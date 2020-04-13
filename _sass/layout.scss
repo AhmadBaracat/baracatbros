@@ -760,3 +760,66 @@ footer {
     padding: 0;
     border: 0;
 }
+
+
+.games-container {
+    @extend .container;
+    grid-template-columns: auto;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+            "h"
+            "g"
+            "f";
+}
+
+.games {
+	grid-area: g;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.games-container .game {
+    display: grid;
+    grid-template-areas:
+                "i n";
+}
+
+.games-container .appIcon {
+    grid-area: i;
+    margin: 1em;
+}
+
+.games-container .appName {
+    grid-area: n;
+    margin: 1em;
+}
+
+.games-container .appName p {
+    font-size: 0.8em;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .games-container .appIcon {
+        margin: 0.5em;
+    }
+
+    .games-container .appIcon .appIconLarge {
+        width: 80px;
+        height: 80px;
+    }
+
+    .games-container .appName {
+        margin: 0.5em;
+    }
+
+	.games-container .appName p {
+        text-align: left;
+        font-size: 0.6em;
+    }
+
+}

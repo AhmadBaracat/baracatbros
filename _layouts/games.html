@@ -4,8 +4,30 @@
 {% include head.html page=site.page.games %}
 {% assign page = site.page.games %}
 
-<body class="container">
+<body class="games-container">
     {% include header.html page=site.page.games %}
+    <div class="games">
+        {% for page_dict in site.page %}
+
+            {% assign page_content = page_dict[1] %}
+            {% if page_content.is_game %}
+                <div class="game">
+                    <div class="appIcon">
+                        <img class="appIconLarge" src="{{ page_content.app_icon }}" alt="{{ page_content.name }} logo">
+                    </div>
+                    <div class="appName">
+                        <p>
+                            {{ page_content.app_name }}
+                        </p>
+                        <p class="appPrice">
+                            {{ page_content.app_headline }}
+                        </p>
+                    </div>
+                </div>
+            {% endif %}
+        {% endfor %}
+
+    </div>
     {% include footer.html %}
 </body>
 </html>
