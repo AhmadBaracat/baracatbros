@@ -451,6 +451,10 @@ $base-height-landscape: 180px;
 	.iphonePreview {
 		padding-bottom: 20px;
 	}
+
+	.iphonePreviewLandscape {
+        background-size: 380px auto;
+    }
 }
 
 .iphoneScreen {
@@ -485,6 +489,12 @@ $base-height-landscape: 180px;
 .videoContainerLandscape > video {
 	width: $base-width-landscape;
 	height: $base-height-landscape;
+}
+
+@media only screen and (max-width: 992px) {
+    .videoContainerLandscape > video {
+        height: 160px;
+    }
 }
 
 // Feature List
