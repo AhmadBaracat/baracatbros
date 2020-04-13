@@ -25,14 +25,14 @@ page:
   main:
     name: Baracat Bros
     icon: /assets/BaracatBrosLogo.png
-    description: We use games as a medium for education.
+    description: We use games as a medium to deliver educational value. You can think of our games as Multivitamins Gummy Bears 🐻 for Education 😅!
     url: https://www.baracatbros.com
 
     enable_smart_app_banner: false
   games:
     name: Baracat Bros Games
     icon: /assets/BaracatBrosLogo.png
-    description: We use games as a medium for education.
+    description: We use games as a medium to deliver educational value. You can think of our games as Multivitamins Gummy Bears 🐻 for Education 😅!
     url: https://www.baracatbros.com/games
 
     enable_smart_app_banner: false
@@ -40,7 +40,7 @@ page:
     is_game: true
     name: Foodology
     icon: /assets/Foodology_Logo_WithShadows@561.png
-    description: Understand what you eat 🍏 🍩 🍣 🌰 🧀
+    description: Do you know enough about the food you eat? 🍏 🍋 🍉 🥐 🍟 🌽 🍩 🍆. Test your knowledge by sorting food by fat, protein, energy and more. No Ads! No High scores! Only food and a relaxing music...
     url: https://www.baracatbros.com/games/foodology
     assets_dir_name: foodology
 
@@ -57,7 +57,7 @@ page:
     is_game: true
     name: Bubblo World Preschool
     icon: /assets/bubbloworld_logo_icon@512.png
-    description: Spend quality time with your preschool kids teaching them problem solving skills.
+    description: Easy game for your toddler to help them improve logic and problem solving abilities. Develop your toddler intelligence and encourage their cognitive development pre-school.
     url: https://www.baracatbros.com/games/bubblo-world-preschool
     assets_dir_name: bubblo_world_preschool
 
