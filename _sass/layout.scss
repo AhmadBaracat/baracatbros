@@ -52,6 +52,7 @@ body {
 		"h h h h h h h h h h h h"
 		"p p p p p i i i i i i i"
 		"t t t t t t t t t t t t"
+		"ph ph ph ph ph ph ph ph ph ph ph ph"
 		"d d d d d d d d d d d d"
 		"c c c c c c c c c c c c"
 		"f f f f f f f f f f f f";
@@ -72,6 +73,7 @@ body {
 			"i i i i i i i i i i i i"
 			"p p p p p p p p p p p p"
 			"t t t t t t t t t t t t"
+			"ph ph ph ph ph ph ph ph ph ph ph ph"
 			"d d d d d d d d d d d d"
 			"c c c c c c c c c c c c"
 			"f f f f f f f f f f f f";
@@ -275,6 +277,12 @@ nav > ul li a:active {
 
 .appDescription ul {
     margin-left: 1.1em;
+}
+
+.productHunt {
+    grid-area: ph;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @media only screen and (max-width: 992px) {
